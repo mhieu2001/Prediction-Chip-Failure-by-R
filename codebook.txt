@@ -1,0 +1,9 @@
+Codebook for semi_conductor quality-control data from a semi-conductor manufacturing process. There are hundreds of diagnostic sensors along the production line, measuring various inputs and outputs in the process.
+
+
+The dataset contains the following variables:
+
+FAIL : a binary variable on whether the chip was a failure (failure: 1; otherwise 0)
+
+SIG1, SIG2, … , SIG200 : 200 vector of diagnostic signals.
+
